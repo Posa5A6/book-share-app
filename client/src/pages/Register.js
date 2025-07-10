@@ -19,7 +19,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(
+      await axios.post(
         'https://book-share-app-yt3y.onrender.com/api/users/register',
         formData,
         {
