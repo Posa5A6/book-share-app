@@ -23,7 +23,7 @@ const UploadBook = () => {
     setMessage('');
 
     try {
-      const response = await api.post('/api/books/upload', formData);
+     await api.post('/api/books/upload', formData);
       setSuccess(true);
       setMessage('✅ Book uploaded successfully!');
       setFormData({
