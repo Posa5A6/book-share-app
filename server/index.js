@@ -11,7 +11,9 @@ dotenv.config(); // Load .env file
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: 'https://book-share-app.netlify.app'
+}));
 app.use(express.json());
 app.use('/uploads', express.static('uploads')); // Serve uploaded files
 app.use('/uploads/books', express.static('uploads/books'));
