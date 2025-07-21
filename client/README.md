@@ -6,7 +6,7 @@ A React-based responsive client for the Book Share App, enabling a seamless expe
 
 ## 🚀 Live Demo (optional)
 
-🎈 *Add your deployed URL here (if you have one)*
+🎈 *[Add your deployed URL here (if you have one)](https://book-share-app.netlify.app/)*
 
 ---
 
